@@ -1,0 +1,142 @@
+{
+  "about": {
+    "solutionsTitle": "Innovative Solutions for You",
+    "digitalPresence": "Transform Your Digital Presence",
+    "card1": {
+      "title": "Web Development",
+      "description": "We create responsive and optimized websites and web applications to meet your needs."
+    },
+    "card2": {
+      "title": "Digital Marketing",
+      "description": "Strategic planning to expand your online presence and reach."
+    },
+    "card3": {
+      "title": "IT Consulting",
+      "description": "Tailored solutions to turn technological challenges into opportunities."
+    },
+    "customizingTomorrow": "Customizing Tomorrow, Today",
+    "description": "Our mission is to bring innovative technological solutions that align with your goals, providing personalized service and tangible results.",
+    "ctaButton": "Learn More",
+    "imageAlt": "Illustrative image about the About Us section."
+  },
+  "hero": {
+    "title": "Innovation and Technology at Your Reach",
+    "description": "We empower companies and individuals with digital solutions that truly make a difference.",
+    "ctaButton": "Get in Touch",
+    "clients": "Clients Who Trust Us",
+    "imageAlt": "Illustration representing technological innovation."
+  },
+  "projects": {
+    "title": "Real Projects",
+    "subtitle": "Discover authentic innovation in problem-solving",
+    "card1": {
+      "type": "Built from Scratch",
+      "title": "Loucura Amor - Your Telemessage Website",
+      "stacks": ["ReactJS", "Typescript", "Bootstrap", "Styled Components"],
+      "description": "Demonstrate all your love through words that touch the heart, we dedicate ourselves to expressing deep feelings. Our messages capture the essence of love. Surprise and enchant those you love, bringing the love of words to life. The Loucura Amor website was developed as a means of promoting thousands of audio messages."
+    },
+    "card2": {
+      "type": "Built from Scratch",
+      "title": "DIY Crypto - Bitcoin Offline Protection with Web3 Security",
+      "stacks": ["ReactJS", "Typescript", "Tailwindcss", "Nodejs", "Clean Arch", "Clean Code"],
+      "description": "DIY Crypto is an innovative platform that offers a practical approach to protecting your bitcoins offline, using advanced Web3 security concepts. This project combines the simplicity of ReactJS and the robustness of Node.js to create a smooth and secure user experience. By using TypeScript and Tailwind CSS, the application not only ensures an attractive visual interface but also maintains a clean architecture and well-structured code, promoting maintainability and scalability. Learn how to keep your digital assets safe and explore best practices for self-custody in this dynamic learning environment."
+    },
+    "card3": {
+      "type": "Built from Scratch",
+      "title": "HastyDEV - A Platform for Developers by Developers",
+      "stacks": ["ReactJS", "Typescript", "Bootstrap", "Styled Components", "NodeJS", "Express", "MySQL", "MongoDB"],
+      "description": "HastyDEV is a platform designed to simplify and facilitate collaboration between developers, Microentrepreneurs (MEIs), and Non-Governmental Organizations (NGOs) in the software development market. This platform offers unique opportunities for all involved, becoming a convergence center to create technological solutions, promote portfolio growth, and encourage participation through a gamified system."
+    },
+    "card4": {
+      "type": "Layout Edit",
+      "title": "Ong Superar - Your Telemessage Website",
+      "stacks": ["WIX"],
+      "description": "Voluntary project, where the layout was edited and redesigned voluntarily."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Solutions for all your digital needs.",
+    "cards": [
+      {
+        "icon": "TbWorldCode",
+        "title": "Custom Website Development",
+        "description": "Creation of custom websites to meet your unique needs."
+      },
+      {
+        "icon": "IoRocket",
+        "title": "Website Performance Optimization",
+        "description": "Enhancement of your website's performance and speed for a better user experience."
+      },
+      {
+        "icon": "CiSettings",
+        "title": "Advanced Customizations",
+        "description": "Advanced customizations to meet your specific needs."
+      },
+      {
+        "icon": "MdSupportAgent",
+        "title": "Specialized Technical Support",
+        "description": "Specialized technical support to keep your website running smoothly."
+      },
+      {
+        "icon": "FaSearch",
+        "title": "Custom SEO Strategies",
+        "description": "SEO strategies tailored to improve your website's visibility and ranking."
+      },
+      {
+        "icon": "FaCog",
+        "title": "Business System Development",
+        "description": "Creation of a system with management, authentication, and everything your business needs."
+      },
+      {
+        "icon": "FaCode",
+        "title": "API Development",
+        "description": "Development and implementation of custom APIs for system and service integration."
+      },
+      {
+        "icon": "FaDesktop",
+        "title": "Software Development",
+        "description": "Development of custom software to meet the specific needs of your business."
+      },
+      {
+        "icon": "FaMobileAlt",
+        "title": "Mobile App Development",
+        "description": "Development of mobile apps for iOS and Android, from simple ideas to complex projects."
+      },
+      {
+        "icon": "FaTools",
+        "title": "Website Maintenance",
+        "description": "Updates, bug fixes, and continuous improvements to keep your website running efficiently and securely."
+      }
+    ]
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "header": {
+    "title": "Transform Your Digital Presence with Innovative Solutions",
+    "description": "We help companies and individuals thrive in the digital environment with the best technological solutions."
+  },
+  "footer": {
+    "companyName": "HASTYDEV",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "projects": "Projects"
+    },
+    "copyright": "© 2024 JeffLds™. All rights reserved.",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}

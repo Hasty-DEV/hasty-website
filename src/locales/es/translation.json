@@ -1,0 +1,142 @@
+{
+  "about": {
+    "solutionsTitle": "Soluciones Innovadoras para Ti",
+    "digitalPresence": "Transforma tu Presencia Digital",
+    "card1": {
+      "title": "Desarrollo Web",
+      "description": "Creamos sitios web y aplicaciones web responsivas y optimizadas para satisfacer tus necesidades."
+    },
+    "card2": {
+      "title": "Marketing Digital",
+      "description": "Planificación estratégica para ampliar tu presencia y alcance online."
+    },
+    "card3": {
+      "title": "Consultoría de TI",
+      "description": "Soluciones personalizadas para convertir los desafíos tecnológicos en oportunidades."
+    },
+    "customizingTomorrow": "Personalizando el Mañana, Hoy",
+    "description": "Nuestra misión es aportar soluciones tecnológicas innovadoras que se alineen con tus objetivos, brindando un servicio personalizado y resultados concretos.",
+    "ctaButton": "Saber Más",
+    "imageAlt": "Imagen ilustrativa sobre la sección de Nosotros."
+  },
+  "hero": {
+    "title": "Innovación y Tecnología al Alcance de Tu Mano",
+    "description": "Empoderamos a empresas e individuos con soluciones digitales que realmente marcan la diferencia.",
+    "ctaButton": "Ponte en Contacto",
+    "clients": "Clientes que Confían en Nosotros",
+    "imageAlt": "Ilustración representando innovación tecnológica."
+  },
+  "projects": {
+    "title": "Proyectos Reales",
+    "subtitle": "Descubre la innovación auténtica en la resolución de problemas",
+    "card1": {
+      "type": "Hecho desde Cero",
+      "title": "Loucura Amor - Tu Sitio Web de Telemensajes",
+      "stacks": ["ReactJS", "Typescript", "Bootstrap", "Styled Components"],
+      "description": "Demuestra todo tu amor a través de palabras que tocan el corazón, nos dedicamos a expresar sentimientos profundos. Nuestras mensajes capturan la esencia del amor. Sorprende y encanta a los que amas, trayendo el amor de las palabras a la vida. El sitio web Loucura Amor fue desarrollado como una forma de divulgar miles de audios."
+    },
+    "card2": {
+      "type": "Hecho desde Cero",
+      "title": "DIY Crypto - Protección de Bitcoin Offline con Seguridad Web3",
+      "stacks": ["ReactJS", "Typescript", "Tailwindcss", "Nodejs", "Clean Arch", "Clean Code"],
+      "description": "DIY Crypto es una plataforma innovadora que ofrece un enfoque práctico para proteger tus bitcoins offline, utilizando conceptos avanzados de seguridad en Web3. Este proyecto combina la simplicidad de ReactJS y la robustez de Node.js para crear una experiencia de usuario fluida y segura. Utilizando TypeScript y Tailwind CSS, la aplicación no solo garantiza una interfaz atractiva, sino también una arquitectura limpia y código bien estructurado, promoviendo la mantenibilidad y escalabilidad. Descubre cómo mantener tus activos digitales seguros y explora las mejores prácticas de autocustodia en este entorno de aprendizaje dinámico."
+    },
+    "card3": {
+      "type": "Hecho desde Cero",
+      "title": "HastyDEV - Una Plataforma para Desarrolladores Hecha por Desarrolladores",
+      "stacks": ["ReactJS", "Typescript", "Bootstrap", "Styled Components", "NodeJS", "Express", "MySQL", "MongoDB"],
+      "description": "HastyDEV es una plataforma diseñada para simplificar y facilitar la colaboración entre desarrolladores, Microemprendedores (MEIs) y Organizaciones No Gubernamentales (ONGs) en el mercado de desarrollo de software. Esta plataforma ofrece oportunidades únicas para todos los involucrados, convirtiéndose en un centro de convergencia para crear soluciones tecnológicas, promover el crecimiento de portafolios y fomentar la participación mediante un sistema gamificado."
+    },
+    "card4": {
+      "type": "Edición de Layout",
+      "title": "Ong Superar - Tu Sitio Web de Telemensajes",
+      "stacks": ["WIX"],
+      "description": "Proyecto voluntario, donde se editó y rediseñó voluntariamente el layout de la página."
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones para todas tus necesidades digitales.",
+    "cards": [
+      {
+        "icon": "TbWorldCode",
+        "title": "Desarrollo de Sitios Web Personalizados",
+        "description": "Creación de sitios web personalizados para satisfacer tus necesidades únicas."
+      },
+      {
+        "icon": "IoRocket",
+        "title": "Optimización de Rendimiento de Sitios Web",
+        "description": "Mejora el rendimiento y la velocidad de tu sitio para una mejor experiencia del usuario."
+      },
+      {
+        "icon": "CiSettings",
+        "title": "Personalizaciones Avanzadas",
+        "description": "Personalizaciones avanzadas para satisfacer tus necesidades específicas."
+      },
+      {
+        "icon": "MdSupportAgent",
+        "title": "Soporte Técnico Especializado",
+        "description": "Soporte técnico especializado para mantener tu sitio funcionando de manera óptima."
+      },
+      {
+        "icon": "FaSearch",
+        "title": "Estrategias SEO Personalizadas",
+        "description": "Estrategias SEO adaptadas para mejorar la visibilidad y el ranking de tu sitio."
+      },
+      {
+        "icon": "FaCog",
+        "title": "Desarrollo de Sistemas Empresariales",
+        "description": "Creación de sistemas con gestión, autenticación y todo lo que tu negocio necesita."
+      },
+      {
+        "icon": "FaCode",
+        "title": "Desarrollo de APIs",
+        "description": "Desarrollo e implementación de APIs personalizadas para la integración de sistemas y servicios."
+      },
+      {
+        "icon": "FaDesktop",
+        "title": "Desarrollo de Software",
+        "description": "Desarrollo de software personalizado para satisfacer las necesidades específicas de tu negocio."
+      },
+      {
+        "icon": "FaMobileAlt",
+        "title": "Desarrollo de Aplicaciones Móviles",
+        "description": "Desarrollo de aplicaciones móviles para iOS y Android, desde ideas simples hasta proyectos complejos."
+      },
+      {
+        "icon": "FaTools",
+        "title": "Mantenimiento de Sitios Web Existentes",
+        "description": "Actualización, corrección de errores y mejoras continuas para mantener tu sitio funcionando de manera eficiente y segura."
+      }
+    ]
+  },
+  "navbar": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "header": {
+    "title": "Transforma tu Presencia Digital con Soluciones Innovadoras",
+    "description": "Ayudamos a empresas e individuos a prosperar en el entorno digital con las mejores soluciones tecnológicas."
+  },
+  "footer": {
+    "companyName": "HASTYDEV",
+    "links": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "services": "Servicios",
+      "projects": "Proyectos"
+    },
+    "copyright": "© 2024 JeffLds™. Todos los derechos reservados.",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  }
+}

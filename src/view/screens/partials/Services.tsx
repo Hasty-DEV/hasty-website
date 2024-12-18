@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { TbWorldCode } from "react-icons/tb";
 import { IoRocket } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
@@ -13,67 +14,69 @@ import {
 import Card from "../../../components/Card";
 
 const Services = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       className="w-full flex flex-col justify-end items-end px-4 lg:px-24"
       id="services"
     >
       <span className="text-xl text-indigo-500 font-bold">
-        Soluções Abrangentes Para Fortalecer Seu Negócio
+        {t('services.subtitle')}
       </span>
       <h2 className="text-3xl mb-6 font-bold">
-        Oferecemos soluções completas para seu negócio
+        {t('services.title')}
       </h2>
       <div className="w-full flex flex-wrap justify-center">
         <Card
           icon={<TbWorldCode />}
-          title="Desenvolvimento de Websites Personalizados"
-          description="Criação de websites personalizados para atender às suas necessidades únicas."
+          title={t('services.cards.0.title')}
+          description={t('services.cards.0.description')}
         />
         <Card
           icon={<IoRocket />}
-          title="Otimização de Performance de Websites"
-          description="Aprimoramento do desempenho e velocidade do seu site para uma experiência aprimorada do usuário."
+          title={t('services.cards.1.title')}
+          description={t('services.cards.1.description')}
         />
         <Card
           icon={<CiSettings />}
-          title="Personalizações Avançadas"
-          description="Personalizações avançadas para atender às suas necessidades específicas."
+          title={t('services.cards.2.title')}
+          description={t('services.cards.2.description')}
         />
         <Card
           icon={<MdSupportAgent />}
-          title="Suporte Técnico Especializado"
-          description="Suporte técnico especializado para manter seu site funcionando perfeitamente."
+          title={t('services.cards.3.title')}
+          description={t('services.cards.3.description')}
         />
         <Card
           icon={<FaSearch />}
-          title="Estratégias de SEO Personalizadas"
-          description="Estratégias de SEO adaptadas para melhorar a visibilidade e classificação do seu site."
+          title={t('services.cards.4.title')}
+          description={t('services.cards.4.description')}
         />
         <Card
           icon={<FaCog />}
-          title="Criação de Sistemas Empresariais"
-          description="Criação de um sistema com gerenciamento, autenticação e tudo o que seu negócio precisa."
+          title={t('services.cards.5.title')}
+          description={t('services.cards.5.description')}
         />
         <Card
           icon={<FaCode />}
-          title="Criação de APIs"
-          description="Desenvolvimento e implementação de APIs personalizadas para integração de sistemas e serviços."
+          title={t('services.cards.6.title')}
+          description={t('services.cards.6.description')}
         />
         <Card
           icon={<FaDesktop />}
-          title="Criação de Softwares"
-          description="Desenvolvimento de softwares personalizados para atender às necessidades específicas do seu negócio."
+          title={t('services.cards.7.title')}
+          description={t('services.cards.7.description')}
         />
         <Card
           icon={<FaMobileAlt />}
-          title="Criação de Aplicativos"
-          description="Desenvolvimento de aplicativos móveis para iOS e Android, desde ideias simples até projetos complexos."
+          title={t('services.cards.8.title')}
+          description={t('services.cards.8.description')}
         />
         <Card
           icon={<FaTools />}
-          title="Manutenção de Sites Existentes"
-          description="Atualização, correção de bugs e melhorias contínuas para manter seu site funcionando de forma eficiente e segura."
+          title={t('services.cards.9.title')}
+          description={t('services.cards.9.description')}
         />
       </div>
     </section>

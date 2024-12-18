@@ -2,8 +2,10 @@ import Button from "../../components/Button";
 import Logo from "../../components/Logo";
 import Navbar from "../../components/Navbar";
 import { useHeader } from "./useHeader";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation();
   const { scrolling } = useHeader();
 
   return (
@@ -17,10 +19,10 @@ const Header = () => {
           <Logo />
           <div className="flex w-full items-center justify-between px-4">
             <Navbar />
-            <div className="hidden lg:block">
+            <div className="flex items-center gap-4">
               <Button
                 ButtonLink="https://api.whatsapp.com/send?phone=5511981817497"
-                ButtonText="Contate-nos"
+                ButtonText={t("hero.ctaButton")}
               />
             </div>
           </div>
