@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 import Card from "../../../components/Card";
 import AboutImg from "../../assets/aboutimg.webp";
 
@@ -7,50 +7,77 @@ const About = () => {
 
   return (
     <section
-      className="w-full flex flex-col items-center justify-center pb-36"
+      className="w-full flex flex-col items-center justify-center pb-36 gap-y-4"
       id="about"
     >
-      <div className="px-8 flex flex-col items-center justify-center">
+      <article className="px-8 flex flex-col items-center justify-center">
         <span className="text-2xl text-indigo-500 font-bold">
-          {t('about.solutionsTitle')}
+          {t("about.solutionsTitle")}
         </span>
         <h2 className="text-4xl mb-6 text-center">
-          {t('about.digitalPresence')}
+          {t("about.digitalPresence")}
         </h2>
-      </div>
-      <div className="w-full flex flex-wrap justify-center">
+      </article>
+      <article className="w-full flex flex-wrap justify-center">
         <Card
           quantity="6"
-          title={t('about.card1.title')}
-          description={t('about.card1.description')}
+          title={t("about.card1.title")}
+          description={t("about.card1.description")}
         />
         <Card
           quantity="6"
-          title={t('about.card2.title')}
-          description={t('about.card2.description')}
+          title={t("about.card2.title")}
+          description={t("about.card2.description")}
         />
         <Card
           quantity="4"
-          title={t('about.card3.title')}
-          description={t('about.card3.description')}
+          title={t("about.card3.title")}
+          description={t("about.card3.description")}
         />
-      </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between px-8">
-        <div className="max-w-xl lg:w-full lg:mr-16 mb-8 lg:mb-0">
-          <h2 className="text-3xl font-bold mb-4">
-            {t('about.customizingTomorrow')}
-          </h2>
-          <p className="text-gray-700 leading-relaxed text-justify">
-            {t('about.description')}
+      </article>
+      <article className="flex items-center justify-center px-64">
+        <div className="flex flex-col gap-y-2">
+          <h2 className="font-bold text-2xl">HastyDev - Software House</h2>
+          <ul>
+            <li>→ Soluções de T.I</li>
+            <li> → Criação de Websites</li>
+            <li> → Soluções de API’s</li>
+            <li>→ Sistemas e Integrações</li>
+            <li>→ Softwares Personalizados</li>
+          </ul>
+          <h3 className="font-semibold text-xl">Quem Somos?</h3>
+          <p className="text-sm text-justify">
+            Surgida de dentro do curso de Análise e Desenvolvimento de Sistemas,
+            em um grupo de amigo que se uniram para fazer o TCC em 2023/24, ao
+            qual se sagrou o melhor projeto daquela avaliação. Dessa Junção
+            iniciou-se a HastyDEV, em que em pouco tempo de vida, já construiu
+            páginas web, e-commerces, integrações com pagamentos completas,
+            soluções personalizadas para o mercado de trabalho.
           </p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">
-            {t('about.ctaButton')}
-          </button>
+          <h3 className="font-semibold text-xl">Missão:</h3>
+          <p className="text-sm text-justify">
+            Nossa Missão é democratizar o acesso à tecnologias as empresas,
+            trazendo qualidade, custo-benefício e soluções completas a todos
+            nossos clientes.
+          </p>
+          <h3 className="font-semibold text-xl">Visão:</h3>
+          <p className="text-sm text-justify">
+            Acreditamos que, por meio da tecnologia, da comunicação e de um
+            relacionamento próximo com nossos clientes, é possível construir um
+            futuro onde as empresas possam focar inteiramente no campo
+            estratégico, deixando os desafios operacionais para soluções
+            tecnológicas.
+          </p>
+          <h3 className="font-semibold text-xl">Valores:</h3>
+          <ul className="list-disc">
+            <li>Compromisso com a qualidade</li>
+            <li>Inovação constante</li>
+            <li>Foco no cliente</li>
+            <li>Ética e transparência</li>
+          </ul>
         </div>
-        <div className="max-w-xl lg:w-1/3">
-          <img src={AboutImg} alt={t('about.imageAlt')} className="w-full h-auto" />
-        </div>
-      </div>
+        <img src={AboutImg} className="w-full h-auto" />
+      </article>
     </section>
   );
 };
