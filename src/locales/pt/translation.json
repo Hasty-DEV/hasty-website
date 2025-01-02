@@ -13,11 +13,7 @@
     "card3": {
       "title": "Consultoria de TI",
       "description": "Soluções sob medida para transformar desafios tecnológicos em oportunidades."
-    },
-    "customizingTomorrow": "Personalizando o Amanhã, Hoje",
-    "description": "Nossa missão é trazer soluções tecnológicas inovadoras que se alinham com seus objetivos, fornecendo um serviço personalizado e resultados concretos.",
-    "ctaButton": "Saiba Mais",
-    "imageAlt": "Imagem ilustrativa sobre a seção de sobre nós."
+    }
   },
   "hero": {
     "title": "Inovação e Tecnologia ao seu Alcance",
@@ -129,7 +125,7 @@
       "services": "Serviços",
       "projects": "Projetos"
     },
-    "copyright": "© 2024 JeffLds™. Todos os direitos reservados.",
+    "copyright": "© 2024 Hastydev™. Todos os direitos reservados.",
     "social": {
       "facebook": "Facebook",
       "twitter": "Twitter",
