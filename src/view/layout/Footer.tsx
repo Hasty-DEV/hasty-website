@@ -40,12 +40,7 @@ const Footer = () => {
         </div>
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <span className="block text-sm sm:text-center">
-          {t('footer.allRightsReserved')}
-          <a href="https://github.com/Jefflds" className="hover:underline">
-            {" "}
-            HastyDev™
-          </a>
-          .
+          {t('footer.copyright')}
         </span>
       </div>
     </footer>

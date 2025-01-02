@@ -20,7 +20,7 @@ export function Hero() {
             <div className="flex flex-wrap items-center">
               <Button
                 ButtonText={t('hero.ctaButton')}
-                ButtonLink="https://api.whatsapp.com/send?phone=5511981817497"
+                ButtonLink="https://api.whatsapp.com/send?phone=5511977328121"
               />
             </div>
             <div className="clients pt-16">

@@ -23,14 +23,14 @@ export function Projects() {
           title={t('projects.card1.title')}
           stacks={t('projects.card1.stacks', { returnObjects: true }) as string[]}
           description={t('projects.card1.description')}
-          link="https://www.loucuraamor.com.br/"
+          link="https://telemensagem.vercel.app/"
         />
         <ProjectCard
           type={t('projects.card2.type')}
           title={t('projects.card2.title')}
           stacks={t('projects.card2.stacks', { returnObjects: true }) as string[]}
           description={t('projects.card2.description')}
-          link="https://diy-crypto.vercel.app/"
+          link="https://www.diyseclab.io/"
         />
         <ProjectCard
           type={t('projects.card3.type')}
