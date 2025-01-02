@@ -1,18 +1,19 @@
 import { useState } from "react";
 import ListItem from "./ListItem";
 import { LanguageSwitcher } from "./LanguageSwitcher/LanguageSwitcher";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const { t } = useTranslation(); // Hook para tradução
+  const { t } = useTranslation();
 
   const handleNavLinkClick = () => {
     setOpen(false);
   };
 
   return (
-    <div>
+    <>
+      <LanguageSwitcher className="hidden lg:block text-gray-900 dark:text-white" />
       <button
         type="button"
         title="toggle menu"
@@ -20,7 +21,7 @@ const Navbar = () => {
         id="navbarToggler"
         className={`${
           open && "navbarTogglerActive"
-        } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
+        } block rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
       >
         <span className="relative my-[6px] block h-[2px] w-[30px] bg-slate-700"></span>
         <span className="relative my-[6px] block h-[2px] w-[30px] bg-slate-700"></span>
@@ -34,23 +35,20 @@ const Navbar = () => {
       >
         <div className="block lg:flex w-full">
           <ListItem NavLink="#hero" onClick={() => handleNavLinkClick()}>
-            {t('navbar.home')}
+            {t("navbar.home")}
           </ListItem>
           <ListItem NavLink="#about" onClick={() => handleNavLinkClick()}>
-            {t('navbar.about')}
+            {t("navbar.about")}
           </ListItem>
           <ListItem NavLink="#services" onClick={() => handleNavLinkClick()}>
-            {t('navbar.services')}
+            {t("navbar.services")}
           </ListItem>
           <ListItem NavLink="#projects" onClick={() => handleNavLinkClick()}>
-            {t('navbar.projects')}
-          </ListItem>
-          <ListItem>
-            <LanguageSwitcher className="hidden lg:block text-gray-900 dark:text-white" />
+            {t("navbar.projects")}
           </ListItem>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 
