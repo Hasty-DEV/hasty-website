@@ -19,8 +19,9 @@ const Header = () => {
           <Logo />
           <div className="flex w-full items-center justify-end px-4">
             <Navbar />
-            <div className="hidden lg:flex items-center gap-4">
+            <div className="hidden w-64 lg:flex items-center gap-4">
               <Button
+                className="justify-center"
                 ButtonLink="https://api.whatsapp.com/send?phone=5511977328121"
                 ButtonText={t("hero.ctaButton")}
               />
