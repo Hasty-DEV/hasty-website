@@ -31,16 +31,16 @@ export function Hero() {
 
               <div className="flex items-center space-x-4">
                 <SingleImage
-                  href="https://hasty-dev.vercel.app/"
-                  imgSrc="https://hasty-dev.vercel.app/assets/LogoLight-b61ed2ee.svg"
+                  href="https://www.ongsuperar.org.br/"
+                  imgSrc="https://static.wixstatic.com/media/4e880b_bcd130773d124b3f89b877da799dffa4~mv2.png/v1/fill/w_283,h_148,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/sem%20fundo.png"
                 />
                 <SingleImage
-                  href="https://www.loucuraamor.com.br/"
-                  imgSrc="https://www.loucuraamor.com.br/assets/Loucura%20de%20amor-Rt8ii_0U.png"
+                  href="https://telemensagem.vercel.app/"
+                  imgSrc="https://telemensagem.vercel.app/assets/Loucura%20de%20amor-Rt8ii_0U.png"
                 />
                 <SingleImage
-                  href="https://diy-crypto.vercel.app/"
-                  imgSrc="https://diy-crypto.vercel.app/assets/logo-C3AqhoME.svg"
+                  href="https://www.diyseclab.io/"
+                  imgSrc="https://www.diyseclab.io/assets/logo-complete-black-BFcuepit.png"
                 />
               </div>
             </div>
