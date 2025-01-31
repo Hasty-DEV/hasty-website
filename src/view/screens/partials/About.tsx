@@ -35,13 +35,13 @@ const About = () => {
           description={t("about.card3.description")}
         />
       </article>
-      <article className="flex items-center justify-center px-64">
-        <div className="flex flex-col gap-y-2">
+      <article className="flex flex-col lg:flex-row items-center justify-center px-4 lg:px-64">
+        <div className="flex flex-col gap-y-2 lg:w-1/2">
           <h2 className="font-bold text-2xl">HastyDev - Software House</h2>
           <ul>
             <li>→ Soluções de T.I</li>
-            <li> → Criação de Websites</li>
-            <li> → Soluções de API’s</li>
+            <li>→ Criação de Websites</li>
+            <li>→ Soluções de API’s</li>
             <li>→ Sistemas e Integrações</li>
             <li>→ Softwares Personalizados</li>
           </ul>
@@ -69,14 +69,14 @@ const About = () => {
             tecnológicas.
           </p>
           <h3 className="font-semibold text-xl">Valores:</h3>
-          <ul className="list-disc">
+          <ul className="list-disc pl-4">
             <li>Compromisso com a qualidade</li>
             <li>Inovação constante</li>
             <li>Foco no cliente</li>
             <li>Ética e transparência</li>
           </ul>
         </div>
-        <img src={AboutImg} className="w-full h-auto" />
+        <img src={AboutImg} className="w-full h-auto lg:w-1/2 mt-4 lg:mt-0 min-w-[200px] max-w-[500px]" alt="About" />
       </article>
     </section>
   );

@@ -8,7 +8,7 @@ type CardProps = {
 const Card = (props: CardProps) => {
   return (
     <div className="max-w-sm w-full sm:w-1/2 lg:w-1/3 p-6 flex-grow">
-      <div className="bg-white border border-gray-200 rounded-lg shadow-lg h-full">
+      <div className="bg-white border border-gray-200 rounded-lg shadow-lg h-full hover:shadow-2xl transition-shadow duration-300">
         <div className="p-4 flex flex-col items-center justify-center">
           <span className="text-4xl font-bold text-indigo-500">
             {props.icon && <> {props.icon}</>}
