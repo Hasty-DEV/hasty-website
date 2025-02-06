@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import { TbWorldCode } from "react-icons/tb";
 import { IoRocket } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
@@ -6,12 +5,13 @@ import { MdSupportAgent } from "react-icons/md";
 import {
   FaSearch,
   FaCog,
-  FaCode,
-  FaDesktop,
   FaMobileAlt,
   FaTools,
+  FaDesktop,
+  FaArrowRight,
 } from "react-icons/fa";
 import Card from "../../../components/Card";
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
   const { t } = useTranslation();
@@ -57,11 +57,6 @@ const Services = () => {
           description={t("services.cards.5.description")}
         />
         <Card
-          icon={<FaCode />}
-          title={t("services.cards.6.title")}
-          description={t("services.cards.6.description")}
-        />
-        <Card
           icon={<FaDesktop />}
           title={t("services.cards.7.title")}
           description={t("services.cards.7.description")}
@@ -78,48 +73,58 @@ const Services = () => {
         />
       </div>
 
-      <div className="mb-6 pb-4 shadow-bottom">
-        <h1 className="font-bold text-4xl text-left">
-          DESENVOLVIMENTO DE SITE E APLICATIVOS
-        </h1>
-        <h4 className="text-left text-sm">
-          Criamos sites e aplicativos do zero. Implementação, ajustes e
-          manutenções.
-        </h4>
-        <p className="text-left">Leia mais (seta diagonal)</p>
-      </div>
+      <section className="relative flex flex-col justify-start items-start text-left px-4 lg:px-24">
+        <div className="mb-6 shadow-lg p-14 max-w-xl">
+          <h1 className="font-bold text-4xl text-left pb-8">
+            DESENVOLVIMENTO DE SITE E APLICATIVOS
+          </h1>
+          <h4 className="text-left text-md">
+            Criamos sites e aplicativos do zero. Implementação, ajustes e
+            manutenções.
+          </h4>
+          <p className="text-sm flex justify-end items-center mt-8 cursor-pointer">
+            Leia mais <FaArrowRight className="ml-2" />
+          </p>
+        </div>
 
-      <div className="mb-6 pb-4 shadow-bottom">
-        <h1 className="font-bold text-4xl text-left">
-          DESENVOLVIMENTO PERSONALIZADO
-        </h1>
-        <h4 className="text-left text-sm">
-          Somos especialistas em desenvolvimento personalizado para startups.
-        </h4>
-        <p className="text-left">Leia mais (seta diagonal)</p>
-      </div>
+        <div className="mb-6 shadow-lg p-14 max-w-xl">
+          <h1 className="font-bold text-4xl text-left pb-8">
+            DESENVOLVIMENTO PERSONALIZADO
+          </h1>
+          <h4 className="text-left text-md">
+            Somos especialistas em desenvolvimento personalizado para startups.
+          </h4>
+          <p className="text-sm flex justify-end items-center mt-8 cursor-pointer">
+            Leia mais <FaArrowRight className="ml-2" />
+          </p>
+        </div>
 
-      <div className="mb-6 pb-4 shadow-bottom">
-        <h1 className="font-bold text-4xl text-left">
-          IDENTIDADE VISUAL COMPLETA
-        </h1>
-        <h4 className="text-left text-sm">
-          Seja marcante memorável e cative a atenção do público.
-        </h4>
-        <p className="text-left">Leia mais (seta diagonal)</p>
-      </div>
+        <div className="mb-6 shadow-lg p-14 max-w-xl">
+          <h1 className="font-bold text-4xl text-left pb-8">
+            IDENTIDADE VISUAL COMPLETA
+          </h1>
+          <h4 className="text-left text-md">
+            Seja marcante memorável e cative a atenção do público.
+          </h4>
+          <p className="text-sm flex justify-end items-center mt-8 cursor-pointer">
+            Leia mais <FaArrowRight className="ml-2" />
+          </p>
+        </div>
 
-      <div className="mb-6 pb-4 shadow-bottom">
-        <h1 className="font-bold text-4xl text-left">
-          CRIAMOS PRODUTOS DIGITAIS E SUA ESTRATÉGIAS DE MARKETING
-        </h1>
-        <h4 className="text-left whitespace-pre-line text-sm">
-          Com nosso processo de desenvolvimento ágil, criamos sites, landing
-          pages, blogs, hotsites e portais gerenciáveis com tempo e custo
-          reduzidos e que vão fazer suas estratégias de marketing decolar!
-        </h4>
-        <p className="text-left">Leia mais (seta diagonal)</p>
-      </div>
+        <div className="mb-6 shadow-lg p-14 max-w-xl">
+          <h1 className="font-bold text-4xl text-left pb-8">
+            CRIAMOS PRODUTOS DIGITAIS E SUA ESTRATÉGIAS DE MARKETING
+          </h1>
+          <h4 className="text-left text-md">
+            Com nosso processo de desenvolvimento ágil, criamos sites, landing
+            pages, blogs, hotsites e portais gerenciáveis com tempo e custo
+            reduzidos e que vão fazer suas estratégias de marketing decolar!
+          </h4>
+          <p className="text-sm flex justify-end items-center mt-8 cursor-pointer">
+            Leia mais <FaArrowRight className="ml-2" />
+          </p>
+        </div>
+      </section>
     </section>
   );
 };
